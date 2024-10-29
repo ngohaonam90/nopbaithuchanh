@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <script src="../js/jquery-3.7.1.min.js"></script>
+    <script src="../js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+
+<body>
+    <!-- Modal Body -->
+    <!-- if you want to close by clicking outside the modal, delete the last endpoint:data-bs-backdrop and data-bs-keyboard -->
+    <div class="modal fade" id="molencoi" tabindex="-1" data-bs-backdrop="static" data-bs-keyboard="false" role="dialog" aria-labelledby="modalTitleId" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-scrollable modal-dialog-centered modal-mg" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="modalTitleId">
+                        <h4>THONG TIN CA NHAN</h1>
+                    </h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close">x</button>
+                </div>
+                <div class="modal-body">
+                    <div class="row">
+                        <div class="col-4">
+                            <label for="">Ma thanh vien:</label>
+                        </div>
+                        <div class="col-8">
+                            <input type="text" class="form-control" id="vien">
+                            <span id="loivien">*</span>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-4">
+                            <label for="">Ho ten:</label>
+                        </div>
+                        <div class="col-8">
+                            <input type="text" class="form-control" id="ten">
+                            <span id="loiten">*</span>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-4">
+                            <label for="">Lop:</label>
+                        </div>
+                        <div class="col-8">
+                            <input type="text" class="form-control" id="lop">
+                            <span id="loilop">*</span>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-4">
+                            <label for="">Ngay tham gia:</label>
+                        </div>
+                        <div class="col-8">
+                            <input type="date" class="form-control" id="ngay">
+                            <span id="loingay">*</span>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-4">
+                            <label for="">So dien thoai:</label>
+                        </div>
+                        <div class="col-8">
+                            <input type="text" class="form-control" id="so">
+                            <span id="loiso">*</span>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-4">
+                            <label for="">Email:</label>
+                        </div>
+                        <div class="col-8">
+                            <input type="email" class="form-control" id="meo">
+                            <span id="loimeo">*</span>
+                        </div>
+                    </div>
+
+
+
+
+
+
+
+
+
+                </div>
+                <div class="modal-footer">
+
+                    <button type="button" class="btn btn-success w-100" id="gui">Luu</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Optional: Place to the bottom of scripts -->
+    <script>
+        const myModal = new bootstrap.Modal(
+            document.getElementById("modalId"),
+            options,
+        );
+    </script>
+    <div class="container">
+        <div class="row">
+            <img src="../HEADER.PNG" alt="" class="w-100">
+        </div>
+        <ul class="nav ">
+            <li class="nav-item">
+                <a class="nav-link active" href="#" aria-current="page">Dang nhap</a
+                >
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#" id="mo">Dang ky</a>
+            </li>
+
+        </ul>
+        <div class="row">
+            <div class="col-12 text-center">
+                <h2>DANH SACH THAM GIA DOI ROBOCON KHOA CNTT</h2>
+            </div>
+        </div>
+        <div class="table-responsive">
+            <table class="table">
+                <thead>
+                    <tr>
+                        <th scope="col">STT</th>
+                        <th scope="col">Ma thanh vien</th>
+                        <th scope="col">Ho ten</th>
+                        <th scope="col">Lop</th>
+                        <th scope="col">Ngay tham gia</th>
+                        <th scope="col">Dien thoai</th>
+                        <th scope="col">Email</th>
+                    </tr>
+                </thead>
+                <tbody id="than">
+
+                </tbody>
+            </table>
+        </div>
+
+
+        <footer>
+            <div class="row text-center">
+                <div class="col-4">
+                    <H5>SVTH: Ngo Hao Nam</H5>
+
+                </div>
+                <div class="col-4">
+                    <H5>Ma so sinh vien: 22674931</H5>
+
+                </div>
+                <div class="col-4">
+                    <H5>Lop: DHTMDT18B</H5>
+
+                </div>
+            </div>
+        </footer>
+
+
+
+
+
+
+    </div>
+    <script src="../js/jquery.js"></script>
+</body>
+
+</html>

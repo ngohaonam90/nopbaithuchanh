@@ -1,0 +1,23 @@
+.container {
+    width: 960px;
+    border: 1px solid;
+}
+
+.nav-item a {
+    color: rgb(114, 110, 110);
+}
+
+H5 {
+    font-size: 15px;
+    color: rgb(142, 142, 143);
+}
+
+span {
+    color: red;
+}
+
+button {
+    background: none;
+    font-size: 20px;
+    border: none;
+}
